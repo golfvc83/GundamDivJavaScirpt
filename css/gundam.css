@@ -1,0 +1,410 @@
+.gundam{
+  position: relative;
+  /*transform: scale(0.18);*/
+}
+
+
+.gundamHeadLight{
+  position: absolute;
+  top: -10px;
+  left: 52px;
+  border-bottom: 30px solid 
+#cfd2d6
+;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+  height: 0;
+	width: 32px;
+}
+
+.gundamHeadLight:after{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -2px;
+	border-bottom: 20px solid black;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	height: 0;
+	width: 25px;
+}
+	
+
+.gundamFontLight{
+    position: absolute;
+    /* top:  30px;
+    left: 38px;*/
+    top: 30px;
+    left: 57px;
+    right 30px;
+    width: 10px;
+    border-width: 20px 10px 0 ;
+    border-style: solid;
+    border-color: red transparent;
+    transform: rotate(180deg);
+}
+
+.gundamFontLight:before {
+    content: "";
+    position: absolute;
+    top: -52px;
+    left: -11px;
+    border-width: 16px;
+    border-style: solid;
+    border-color: transparent transparent red;
+   z-index: 1;
+}
+
+.gundamLeftVfin {
+  position: absolute;
+	top: -30px;
+  left: 6px;
+	border-left: 12px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 100px solid grey;
+  transform: rotate(295deg);
+  z-index 1;
+}
+
+.gundamRightVfin {
+  position: absolute;
+	top: -33px;
+  left: 115px;
+	border-left: 12px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 100px solid grey;
+  transform: rotate(421deg);
+  z-index 1;
+}
+
+.gundamHead{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #a8adb5;
+  height: 70px;
+  width: 120px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  z-index: -2;
+}
+
+.gundamInnerHead{
+  position: absolute;
+  z-index: -1;
+  top: 40px;
+  left: 20px;
+  background: #c8cbd1;
+  height: 40px;
+  width: 100px;
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+}
+
+.gundamHeadGun{
+  position: absolute;
+  z-index: -1;
+  top: 40px;
+  left: 30px;
+  width: 10px;
+  height: 10px;
+  background: black;
+  border: solid 2px yellow;
+  border-radius: 10px;
+}
+
+.gundamRightHeadGun{
+  left: 98px;
+}
+
+.gundamSide{
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  width:  20px;
+  height: 30px;
+  background: #a8adb5;
+}
+
+.gundamRightSide{
+  left: 110px;
+}
+
+.gundamDarkEye {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    width: 40px;
+    border-width: 5px 0px 5px 0px;
+    border-style: solid;
+    border-color: black; 
+    transform: rotate(180deg);
+}
+
+.gundamDarkEye:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -10px;
+    left: 0px;
+    border-width: 0 20px 5px;
+    border-style: solid;
+    border-color: transparent transparent black;
+}
+
+.gundamEye {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    width: 10px;
+    border-width: 4px 4px 0;
+    border-style: solid;
+    border-color: yellow;
+    transform: rotate(180deg);
+}
+
+.gundamEye:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -9px;
+    left: -4px;
+    border-width: 0 9px 5px;
+    border-style: solid;
+    border-color: transparent transparent yellow;
+}
+
+.gundamDarkEyeRight{
+    left: 70px;
+}
+
+.gundamEyeRight {
+    left: 82px;
+}
+
+.gundamUnderEye{
+    position: absolute;
+    top:  95px;
+    left: 30px;
+    border-width: 10px 20px 10px;
+    border-style: solid;
+    border-color: red transparent transparent transparent;
+    z-index: -2;
+}
+
+.gundamUnderEye:after {
+    content: '';
+    position: absolute;
+    top: -22px;
+    left: -20px;
+    width: 40px;
+    height: 12px;
+    background-color: red;
+    z-index: -2;
+}
+
+.gundamUnderEyeRight{
+    left: 70px;
+}
+
+.gundamCheek{
+  position: absolute;
+  top: 80px;
+  left: -13px;
+  width: 30px;
+  height: 60px;
+  background-color:  #a8adb5;
+  border: solid #a8adb5;
+  border-radius: 10px;
+  z-index: -5;
+}
+
+.gundamFaceThrottle1{
+  position: absolute;
+  top: 84px;
+  left: -9px;
+  width: 10px;
+  height: 4px;
+  background-color: black;
+  border: solid black;
+  border-radius: 3px;
+}
+
+.gundamFaceThrottle2{
+  position: absolute;
+  top: 95px;
+  left: -9px;
+  width: 10px;
+  height: 4px;
+  background-color: black;
+  border: solid black;
+  border-radius: 3px;
+}
+
+.gundamFaceThrottle3{
+  position: absolute;
+  top: 106px;
+  left: -9px;
+  width: 10px;
+  height: 4px;
+  background-color: black;
+  border: solid black;
+  border-radius: 3px;
+}
+
+.gundamFaceThrottle4{
+  position: absolute;
+  top: 117px;
+  left: -9px;
+  width: 10px;
+  height: 6px;
+  background-color: black;
+  border: solid black;
+  border-radius: 3px;
+}
+
+.gundamFaceThrottle5{
+  position: absolute;
+  top: 130px;
+  left: -9px;
+  width: 10px;
+  height: 6px;
+  background-color: black;
+  border: solid black;
+  border-radius: 3px;
+}
+
+.gundamCheek1{
+  position: absolute;
+  top: 95px;
+  left: 10px;
+  width: 30px;
+  height: 10px;
+  background-color:  #a8adb5;
+  border: solid #a8adb5;
+  border-radius: 5px;
+  transform: rotate(20deg);
+}
+
+.gundamCheek2{
+  position: absolute;
+  top: 105px;
+  left: 10px;
+  width: 30px;
+  height: 40px;
+  background-color:  #a8adb5;
+  border: solid #a8adb5;
+  border-radius: 5px;
+}
+
+.gundamCheek3{
+  position: absolute;
+  top: 140px;
+  left: 10px;
+  width: 29px;
+  height: 10px;
+  background-color:  #a8adb5;
+  border: solid #a8adb5;
+  border-radius: 5px;
+  transform: rotate(20deg);
+}
+
+.gundamCheek3:after{
+  content: '';
+  position: absolute;
+  top: -23px;
+  left: -6px;
+  width: 34px;
+  height: 30px;
+  background-color: #a8adb5;
+  transform: rotate(-20deg);
+}
+
+.gundamMouth{
+  position: absolute;
+  top: 45px;
+  left: -7px;
+  background:  #c8cbd1;
+	width: 154px;
+	height: 80px;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 200px / 150px;
+   transform: rotate(-90deg);
+  z-index: -5;
+}
+
+.gundamChin{
+  position: absolute;
+  top: 150px;
+  left: 65px;
+  background: red;
+	width: 11px;
+	height: 17px;
+  border: solid red 1px;
+  border-radius: 1px; 
+}
+
+.gundamRightCheek{
+  
+  left: 120px;/*was -20*/
+}
+
+.gundamRightFaceThrottle{
+  left: 136px;
+}
+
+.gundamRightCheek1{
+  left: 94px; /*was -10*/
+  transform: rotate(-20deg);
+}
+
+.gundamRightCheek2{
+  left: 94px; /*was -10*/
+}
+
+.gundamRightCheek3{
+  left: 95px; /*was -10*/
+  transform: rotate(-20deg);
+}
+
+.gundamRightCheek3:after{
+  content: '';
+  left: 2px;
+  transform: rotate(20deg);
+}
+
+.gundamMouthDashUpper{
+  position: absolute;
+  top: 115px;
+  left: 57px;
+  background: black;
+  width: 15px;
+  height: 3px;
+}
+
+.gundamMouthDashUpperRight{
+  left: 70px;
+}
+
+.rotate{
+   transform: rotate(-20deg); 
+}
+.rotate1{
+   transform: rotate(20deg); 
+}
+
+.gundamMouthDashLower{
+  position: absolute;
+  top: 125px;
+  left: 57px;
+  background: black;
+  width: 15px;
+  height: 3px;
+}
+
+.gundamMouthDashLowerRight{
+  left: 70px;
+}
