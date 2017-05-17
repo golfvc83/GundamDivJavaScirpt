@@ -10,7 +10,7 @@ Example code:
 <link rel="stylesheet" href="css/gundam.css"></link>
 <script type="text/javascript" src="js/gundamDivInit.js"></script>
 ```
-#You might need to bind the script on <body> tag onload.
+#You might need to bind the script with body tag on load
 
 2. Declare a Div you wish to have a gundam face on with class = 'gundam'.
 
@@ -19,7 +19,7 @@ Example code:
 <div class='gundam'>
 </div>
 ```
-#One of these for one gundam face. 
+#One div for one gundam face. 
 
 3. The gundamDivInit.js code will take care of creating require Divs for the
 gundam face.
